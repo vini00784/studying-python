@@ -1,0 +1,10 @@
+value = input('Digite algo aleatório: ')
+
+print(f'O tipo desse valor é {type(value)}')
+print(f'Só contém espaços? {'sim' if value.isspace() else 'não'}')
+print(f'É um número? {'sim' if value.isnumeric() else 'não'}')
+print(f'É alfabético? {'sim' if value.isalpha() else 'não'}')
+print(f'É alfanumérico? {'sim' if value.isalnum() else 'não'}')
+print(f'Possui somente maiúsculas? {'sim' if value.isupper() else 'não'}')
+print(f'Possui somente minúsculas? {'sim' if value.islower() else 'não'}')
+print(f'É uma mistura de maiúsculas e minúsculas? {'sim' if value.istitle() else 'não'}')
