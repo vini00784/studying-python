@@ -6,4 +6,4 @@ wallHeight = float(input('Qual a altura da sua parede (em metros)? '))
 wallArea = wallWidth * wallHeight
 paintQuantity = wallArea / 2
 
-print(f'A área da sua parede é igual a {wallArea} \nE a quantidade de tinta necessária para pintar essa parede é de {paintQuantity} litros')
+print(f'A área da sua parede é igual a {wallArea}m² \nE a quantidade de tinta necessária para pintar essa parede é de {paintQuantity} litros')
